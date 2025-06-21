@@ -1,0 +1,36 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-image: url(imagem/pattern001.png);
+}
+div.quadrado{
+
+border: 2px solid lab(0% 0 0);
+height: 300px;
+width: 300px;
+display: inline-block;
+border-radius: 10px;
+background-color: antiquewhite;
+
+
+}
+div#q1{
+
+    background-color: aqua;
+}
+div#q2{
+
+    background-image:linear-gradient(to bottom,  yellow , red);
+
+}
+div#q3{
+
+    background-image: url("imagem/pattern003.png");
+
+
+}
